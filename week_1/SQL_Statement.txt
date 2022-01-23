@@ -1,0 +1,96 @@
+
+/*
+checking the zones table first 5 rows
+*/
+
+SELECT *
+FROM zones
+Limit 5;
+
+
+/*
+checking the yellow taxi trips table first 5 rows
+*/
+SELECT *
+FROM
+yellow_taxi_trips
+LIMIT 5;
+
+/*
+Question 3: Count records
+How many taxi trips were there on January 15?
+*/
+SELECT COUNT(*)
+FROM yellow_taxi_trips
+WHERE  Date(yellow_taxi_trips.tpep_pickup_datetime) = '2021-01-15' ;
+
+/*
+Question 4: Largest tip for each day
+On which day it was the largest tip in January? (note: it's not a typo, it's "tip", not "trip")
+*/
+SELECT Date(yellow_taxi_trips.tpep_pickup_datetime)
+FROM yellow_taxi_trips
+WHERE tip_amount = (SELECT MAX(yellow_taxi_trips.tip_amount) FROM yellow_taxi_trips);
+
+/*
+getting the Central Park zone from the zone table
+*/
+SELECT *
+FROM zones
+WHERE zones."Zone" = 'Central Park';
+
+/*
+Joining the tables
+*/
+
+SELECT taxi.tpep_pickup_datetime, taxi.tpep_dropoff_datetime , zpul."Zone" AS "Pick Up", zdol."Zone" AS "Drop of"
+FROM yellow_taxi_trips AS taxi,
+	 zones AS zpul,
+	 Zones AS zdol
+WHERE taxi."DOLocationID" = zdol."LocationID" AND
+	  taxi."PULocationID" = zpul."LocationID"
+LIMIT 100;
+
+SELECT taxi.tpep_pickup_datetime AS "Pickup Time",
+	   taxi.tpep_dropoff_datetime AS "Dropoff Time",
+	   CONCAT(zpul."Borough", ' / ', zpul."Zone")  AS "Pickup Location",
+	   CONCAT(zdol."Borough", ' / ', zdol."Zone") AS "Dropoff Location"
+FROM yellow_taxi_trips AS taxi,
+	 zones AS zpul,
+	 Zones AS zdol
+WHERE taxi."DOLocationID" = zdol."LocationID" AND
+	  taxi."PULocationID" = zpul."LocationID"
+LIMIT 100;
+
+/*
+Question 5: Most popular destination
+What was the most popular destination for passengers picked up in central park on January 14?
+Enter the zone name (not id). If the zone name is unknown (missing), write "Unknown"
+*/
+
+SELECT  zdol."Zone" AS "Destination", count(*) AS "Total Trips"
+FROM yellow_taxi_trips AS taxi,
+	 zones AS zpul,
+	 Zones AS zdol
+WHERE taxi."DOLocationID" = zdol."LocationID" AND
+	  taxi."PULocationID" = zpul."LocationID" AND
+	  CAST(taxi.tpep_pickup_datetime AS DATE) = '2021-01-14' AND
+	  zpul."Zone" = 'Central Park'
+GROUP BY zdol."Zone"
+ORDER BY "Total Trips" DESC;
+
+/*
+Question 6: Most expensive route *
+What's the pickup-dropoff pair with the largest average price for a ride (calculated based on total_amount)?
+Enter two zone names separated by a slashFor example:"Jamaica Bay / Clinton East"If any of the zone names are unknown (missing), write "Unknown".
+For example, "Unknown / Clinton East".
+*/
+
+SELECT  CONCAT(zpul."Zone" , ' / ', zdol."Zone") AS "pickup-dropoff", AVG(taxi.total_amount) AS "Aerage Amount"
+FROM yellow_taxi_trips AS taxi,
+	 zones AS zpul,
+	 Zones AS zdol
+WHERE taxi."DOLocationID" = zdol."LocationID" AND
+	  taxi."PULocationID" = zpul."LocationID"
+GROUP BY 1
+ORDER BY 2 DESC;
