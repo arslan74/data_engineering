@@ -1,0 +1,25 @@
+[2022-02-03 17:28:42,761] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-03 17:28:42,777] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-03 17:28:42,778] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 17:28:42,778] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 17:28:42,778] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 17:28:42,799] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2020-11-02 00:00:00+00:00
+[2022-02-03 17:28:42,806] {standard_task_runner.py:52} INFO - Started process 3318 to run task
+[2022-02-03 17:28:42,812] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2020-11-02T00:00:00+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmpm37vk9ck', '--error-file', '/tmp/tmp6zy1eqb1']
+[2022-02-03 17:28:42,813] {standard_task_runner.py:77} INFO - Job 132: Subtask format_to_parquet_task
+[2022-02-03 17:28:42,904] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2020-11-02T00:00:00+00:00 [running]> on host 7e458922b35d
+[2022-02-03 17:28:42,963] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 17:28:42,996] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-11-02T00:00:00+00:00
+[2022-02-03 17:28:46,446] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-03 17:28:46,467] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20201102T000000, start_date=20220203T172842, end_date=20220203T172846
+[2022-02-03 17:28:46,630] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 17:28:46,680] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

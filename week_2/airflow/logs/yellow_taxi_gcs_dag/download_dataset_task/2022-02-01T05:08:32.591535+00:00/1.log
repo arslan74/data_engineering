@@ -1,0 +1,26 @@
+[2022-02-01 05:08:34,675] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.download_dataset_task manual__2022-02-01T05:08:32.591535+00:00 [queued]>
+[2022-02-01 05:08:34,691] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.download_dataset_task manual__2022-02-01T05:08:32.591535+00:00 [queued]>
+[2022-02-01 05:08:34,691] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-01 05:08:34,691] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-01 05:08:34,692] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-01 05:08:34,710] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2022-02-01 05:08:32.591535+00:00
+[2022-02-01 05:08:34,716] {standard_task_runner.py:52} INFO - Started process 677 to run task
+[2022-02-01 05:08:34,724] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'download_dataset_task', 'manual__2022-02-01T05:08:32.591535+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmplrbl8hwl', '--error-file', '/tmp/tmpwazf66l1']
+[2022-02-01 05:08:34,725] {standard_task_runner.py:77} INFO - Job 10: Subtask download_dataset_task
+[2022-02-01 05:08:34,779] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.download_dataset_task manual__2022-02-01T05:08:32.591535+00:00 [running]> on host 2ab0b752b16c
+[2022-02-01 05:08:34,847] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-01T05:08:32.591535+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-02-01T05:08:32.591535+00:00
+[2022-02-01 05:08:34,848] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-01 05:08:34,849] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-01.csv > /opt/***/yellow_tripdata_2019-01.csv']
+[2022-02-01 05:08:34,863] {subprocess.py:85} INFO - Output:
+[2022-02-01 05:09:38,644] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-01 05:09:38,740] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=download_dataset_task, execution_date=20220201T050832, start_date=20220201T050834, end_date=20220201T050938
+[2022-02-01 05:09:38,811] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-01 05:09:38,894] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
