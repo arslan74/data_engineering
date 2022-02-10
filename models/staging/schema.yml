@@ -1,0 +1,14 @@
+
+version: 2
+sources:
+    - name: staging
+      #For bigquery:
+      database:  clear-rock-338918
+      # For postgres:
+      #database: production
+      schema: nytaxi 
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: green_trip_data
+         # freshness:
+           # error_after: {count: 6, period: hour}
