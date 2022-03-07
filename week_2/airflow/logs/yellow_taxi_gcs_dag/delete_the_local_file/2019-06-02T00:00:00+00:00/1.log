@@ -27,6 +27,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T00:00:00+00:00
 [2022-02-03 17:20:17,685] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20190602T000000, start_date=20220203T172017, end_date=20220203T172017
 [2022-02-03 17:20:17,734] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:20:17,769] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-20 00:20:01,011] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.delete_the_local_file scheduled__2019-06-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:20:01,041] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.delete_the_local_file scheduled__2019-06-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:20:01,041] {taskinstance.py:1238} INFO - 
@@ -56,3 +57,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T00:00:00+00:00
 [2022-02-20 00:20:01,512] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20190602T000000, start_date=20220220T002001, end_date=20220220T002001
 [2022-02-20 00:20:01,551] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-20 00:20:01,597] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

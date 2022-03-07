@@ -61,8 +61,13 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
     GOOGLE_APPLICATION_CREDENTIALS: /.google/credentials/google_credentials.json
     AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/.google/credentials/google_credentials.json'
+<<<<<<< HEAD
     GCP_PROJECT_ID: 'clear-rock-338918'
     GCP_GCS_BUCKET: 'data_lake_taxi_us'
+=======
+    GCP_PROJECT_ID: ''
+    GCP_GCS_BUCKET: ''
+>>>>>>> origin/master
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs

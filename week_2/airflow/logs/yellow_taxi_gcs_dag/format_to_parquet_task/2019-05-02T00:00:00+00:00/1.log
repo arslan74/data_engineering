@@ -23,6 +23,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-05-02T00:00:00+00:00
 [2022-02-03 17:17:03,708] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190502T000000, start_date=20220203T171655, end_date=20220203T171703
 [2022-02-03 17:17:03,899] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:17:03,941] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-20 00:17:27,745] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-05-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:17:27,789] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-05-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:17:27,791] {taskinstance.py:1238} INFO - 
@@ -50,3 +51,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-05-02T00:00:00+00:00
 [2022-02-20 00:17:43,216] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 1601. PIDs of all processes in the group: [1601]
 [2022-02-20 00:17:43,216] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 1601
 [2022-02-20 00:17:43,324] {process_utils.py:70} INFO - Process psutil.Process(pid=1601, status='terminated', exitcode=0, started='00:17:27') (1601) terminated with exit code 0
+=======
+>>>>>>> origin/master

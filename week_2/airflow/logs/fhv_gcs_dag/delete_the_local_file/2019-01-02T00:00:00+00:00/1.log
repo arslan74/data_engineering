@@ -27,6 +27,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-01-02T00:00:00+00:00
 [2022-02-03 18:18:06,115] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=delete_the_local_file, execution_date=20190102T000000, start_date=20220203T181805, end_date=20220203T181806
 [2022-02-03 18:18:06,154] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 18:18:06,191] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-23 21:00:43,033] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.delete_the_local_file scheduled__2019-01-02T00:00:00+00:00 [queued]>
 [2022-02-23 21:00:43,046] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.delete_the_local_file scheduled__2019-01-02T00:00:00+00:00 [queued]>
 [2022-02-23 21:00:43,046] {taskinstance.py:1238} INFO - 
@@ -56,3 +57,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-01-02T00:00:00+00:00
 [2022-02-23 21:00:43,309] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=delete_the_local_file, execution_date=20190102T000000, start_date=20220223T210043, end_date=20220223T210043
 [2022-02-23 21:00:43,366] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-23 21:00:43,396] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

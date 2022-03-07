@@ -23,6 +23,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
 [2022-02-03 18:15:17,063] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220203T181515, end_date=20220203T181517
 [2022-02-03 18:15:17,121] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 18:15:17,190] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-19 23:44:05,495] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:44:05,538] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:44:05,539] {taskinstance.py:1238} INFO - 
@@ -123,3 +124,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
 [2022-02-23 20:40:54,093] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220223T204050, end_date=20220223T204054
 [2022-02-23 20:40:54,402] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-23 20:40:54,750] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

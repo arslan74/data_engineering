@@ -27,6 +27,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T00:00:00+00:00
 [2022-02-03 18:17:40,176] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=download_dataset_task, execution_date=20190602T000000, start_date=20220203T181723, end_date=20220203T181740
 [2022-02-03 18:17:40,240] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 18:17:40,285] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-23 19:31:03,790] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-06-02T00:00:00+00:00 [queued]>
 [2022-02-23 19:31:03,808] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-06-02T00:00:00+00:00 [queued]>
 [2022-02-23 19:31:03,808] {taskinstance.py:1238} INFO - 
@@ -85,3 +86,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T00:00:00+00:00
 [2022-02-23 20:41:52,222] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=download_dataset_task, execution_date=20190602T000000, start_date=20220223T204131, end_date=20220223T204152
 [2022-02-23 20:41:52,287] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-23 20:41:52,344] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

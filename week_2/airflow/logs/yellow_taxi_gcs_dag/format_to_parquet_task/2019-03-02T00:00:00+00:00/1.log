@@ -98,6 +98,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T00:00:00+00:00
 [2022-02-03 17:15:45,640] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190302T000000, start_date=20220203T171536, end_date=20220203T171545
 [2022-02-03 17:15:45,902] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:15:45,959] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-19 23:41:45,325] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-03-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:41:45,372] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-03-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:41:45,372] {taskinstance.py:1238} INFO - 
@@ -174,3 +175,5 @@ Traceback (most recent call last):
 pyarrow.lib.ArrowInvalid: CSV parse error: Expected 6 columns, got 18: 1,2019-03-01 01:15:31,2019-03-01 01:29:24,1,1.40,1,N,158,79,1,10,3,0.5,4.1,0,0.3,17.9,2.5
 [2022-02-19 23:41:48,927] {local_task_job.py:154} INFO - Task exited with return code 1
 [2022-02-19 23:41:49,010] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

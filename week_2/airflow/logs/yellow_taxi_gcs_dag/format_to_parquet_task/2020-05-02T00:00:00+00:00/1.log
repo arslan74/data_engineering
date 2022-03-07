@@ -23,6 +23,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-05-02T00:00:00+00:00
 [2022-02-03 17:27:23,153] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20200502T000000, start_date=20220203T172721, end_date=20220203T172723
 [2022-02-03 17:27:23,253] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:27:23,428] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-20 00:30:15,318] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2020-05-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:30:15,351] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2020-05-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:30:15,351] {taskinstance.py:1238} INFO - 
@@ -48,3 +49,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-05-02T00:00:00+00:00
 [2022-02-20 00:30:16,136] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20200502T000000, start_date=20220220T003015, end_date=20220220T003016
 [2022-02-20 00:30:16,201] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-20 00:30:16,254] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

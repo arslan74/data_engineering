@@ -73,6 +73,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T00:00:00+00:00
 [2022-02-03 17:16:06,377] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=local_to_gcs_task, execution_date=20190302T000000, start_date=20220203T171547, end_date=20220203T171606
 [2022-02-03 17:16:06,438] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:16:06,474] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-20 00:15:43,127] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.local_to_gcs_task scheduled__2019-03-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:15:43,142] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.local_to_gcs_task scheduled__2019-03-02T00:00:00+00:00 [queued]>
 [2022-02-20 00:15:43,143] {taskinstance.py:1238} INFO - 
@@ -98,3 +99,5 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T00:00:00+00:00
 [2022-02-20 00:16:00,367] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=local_to_gcs_task, execution_date=20190302T000000, start_date=20220220T001543, end_date=20220220T001600
 [2022-02-20 00:16:00,449] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-20 00:16:00,530] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master

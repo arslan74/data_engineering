@@ -308,6 +308,7 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2022-02-03 17:12:45,765] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220203T171118, end_date=20220203T171245
 [2022-02-03 17:12:46,596] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-03 17:12:46,730] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+<<<<<<< HEAD
 [2022-02-19 23:37:53,576] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:37:53,735] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
 [2022-02-19 23:37:53,736] {taskinstance.py:1238} INFO - 
@@ -384,3 +385,5 @@ Traceback (most recent call last):
 pyarrow.lib.ArrowInvalid: CSV parse error: Expected 6 columns, got 3: B00823,2019-02-06 13:30:36,201
 [2022-02-19 23:37:56,557] {local_task_job.py:154} INFO - Task exited with return code 1
 [2022-02-19 23:37:56,842] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+=======
+>>>>>>> origin/master
