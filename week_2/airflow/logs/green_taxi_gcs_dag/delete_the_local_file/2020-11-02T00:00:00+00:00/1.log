@@ -1,0 +1,116 @@
+[2022-02-09 20:39:21,084] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:39:21,176] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:39:21,176] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:39:21,176] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-09 20:39:21,177] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:39:21,240] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_the_local_file> on 2020-11-02 00:00:00+00:00
+[2022-02-09 20:39:21,253] {standard_task_runner.py:52} INFO - Started process 416 to run task
+[2022-02-09 20:39:21,272] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'delete_the_local_file', 'scheduled__2020-11-02T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmp_mj60ryz', '--error-file', '/tmp/tmpmdzo9nym']
+[2022-02-09 20:39:21,280] {standard_task_runner.py:77} INFO - Job 114: Subtask delete_the_local_file
+[2022-02-09 20:39:21,484] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [running]> on host 4f97b6b16bdb
+[2022-02-09 20:39:21,650] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-09 20:39:21,722] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=delete_the_local_file
+AIRFLOW_CTX_EXECUTION_DATE=2020-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-11-02T00:00:00+00:00
+[2022-02-09 20:39:21,723] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-09 20:39:21,724] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/output_2020-11.csv | rm /opt/***/output_2020-11.parquet']
+[2022-02-09 20:39:21,751] {subprocess.py:85} INFO - Output:
+[2022-02-09 20:39:21,771] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-09 20:39:21,842] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20201102T000000, start_date=20220209T203921, end_date=20220209T203921
+[2022-02-09 20:39:21,942] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-09 20:39:22,006] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-09 20:49:04,064] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:49:04,118] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:49:04,120] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:49:04,121] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-09 20:49:04,122] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:49:04,168] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_the_local_file> on 2020-11-02 00:00:00+00:00
+[2022-02-09 20:49:04,193] {standard_task_runner.py:52} INFO - Started process 1258 to run task
+[2022-02-09 20:49:04,197] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'delete_the_local_file', 'scheduled__2020-11-02T00:00:00+00:00', '--job-id', '209', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmpa_1pienc', '--error-file', '/tmp/tmpbo5m4ts9']
+[2022-02-09 20:49:04,200] {standard_task_runner.py:77} INFO - Job 209: Subtask delete_the_local_file
+[2022-02-09 20:49:04,397] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [running]> on host 4f97b6b16bdb
+[2022-02-09 20:49:04,588] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-09 20:49:04,662] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=delete_the_local_file
+AIRFLOW_CTX_EXECUTION_DATE=2020-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-11-02T00:00:00+00:00
+[2022-02-09 20:49:04,665] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-09 20:49:04,665] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/output_2020-11.csv | rm /opt/***/output_2020-11.parquet']
+[2022-02-09 20:49:04,708] {subprocess.py:85} INFO - Output:
+[2022-02-09 20:49:04,737] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-09 20:49:04,874] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20201102T000000, start_date=20220209T204904, end_date=20220209T204904
+[2022-02-09 20:49:04,931] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-09 20:49:04,977] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-20 00:08:53,390] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-20 00:08:53,413] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-20 00:08:53,413] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:08:53,414] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-20 00:08:53,414] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:08:53,443] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_the_local_file> on 2020-11-02 00:00:00+00:00
+[2022-02-20 00:08:53,450] {standard_task_runner.py:52} INFO - Started process 1153 to run task
+[2022-02-20 00:08:53,455] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'delete_the_local_file', 'scheduled__2020-11-02T00:00:00+00:00', '--job-id', '402', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmp003q6xc3', '--error-file', '/tmp/tmpfyn2pb9x']
+[2022-02-20 00:08:53,456] {standard_task_runner.py:77} INFO - Job 402: Subtask delete_the_local_file
+[2022-02-20 00:08:53,580] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [running]> on host da07aa254901
+[2022-02-20 00:08:53,661] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-20 00:08:53,734] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=delete_the_local_file
+AIRFLOW_CTX_EXECUTION_DATE=2020-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-11-02T00:00:00+00:00
+[2022-02-20 00:08:53,735] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-20 00:08:53,736] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/output_2020-11.csv | rm /opt/***/output_2020-11.parquet']
+[2022-02-20 00:08:53,764] {subprocess.py:85} INFO - Output:
+[2022-02-20 00:08:53,772] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-20 00:08:53,809] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20201102T000000, start_date=20220220T000853, end_date=20220220T000853
+[2022-02-20 00:08:53,846] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-20 00:08:53,898] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-20 02:02:17,262] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-20 02:02:17,279] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [queued]>
+[2022-02-20 02:02:17,280] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 02:02:17,280] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-20 02:02:17,280] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 02:02:17,302] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_the_local_file> on 2020-11-02 00:00:00+00:00
+[2022-02-20 02:02:17,308] {standard_task_runner.py:52} INFO - Started process 830 to run task
+[2022-02-20 02:02:17,313] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'delete_the_local_file', 'scheduled__2020-11-02T00:00:00+00:00', '--job-id', '609', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmp0fpyj059', '--error-file', '/tmp/tmpjf1sr3bj']
+[2022-02-20 02:02:17,314] {standard_task_runner.py:77} INFO - Job 609: Subtask delete_the_local_file
+[2022-02-20 02:02:17,398] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.delete_the_local_file scheduled__2020-11-02T00:00:00+00:00 [running]> on host 5484a3a1f7c3
+[2022-02-20 02:02:17,458] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-20 02:02:17,491] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=delete_the_local_file
+AIRFLOW_CTX_EXECUTION_DATE=2020-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-11-02T00:00:00+00:00
+[2022-02-20 02:02:17,492] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-20 02:02:17,493] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/output_2020-11.csv | rm /opt/***/output_2020-11.parquet']
+[2022-02-20 02:02:17,509] {subprocess.py:85} INFO - Output:
+[2022-02-20 02:02:17,520] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-20 02:02:17,575] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=delete_the_local_file, execution_date=20201102T000000, start_date=20220220T020217, end_date=20220220T020217
+[2022-02-20 02:02:17,617] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-20 02:02:17,661] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,124 @@
+[2022-02-23 19:36:22,864] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.local_to_gcs_task scheduled__2019-06-02T00:00:00+00:00 [queued]>
+[2022-02-23 19:36:22,879] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.local_to_gcs_task scheduled__2019-06-02T00:00:00+00:00 [queued]>
+[2022-02-23 19:36:22,879] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-23 19:36:22,879] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-02-23 19:36:22,880] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-23 19:36:22,900] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-06-02 00:00:00+00:00
+[2022-02-23 19:36:22,912] {standard_task_runner.py:52} INFO - Started process 969 to run task
+[2022-02-23 19:36:22,931] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_gcs_dag', 'local_to_gcs_task', 'scheduled__2019-06-02T00:00:00+00:00', '--job-id', '655', '--raw', '--subdir', 'DAGS_FOLDER/fhv_gcs_dag.py', '--cfg-path', '/tmp/tmp245zrf1_', '--error-file', '/tmp/tmpcfqvmrah']
+[2022-02-23 19:36:22,933] {standard_task_runner.py:77} INFO - Job 655: Subtask local_to_gcs_task
+[2022-02-23 19:36:23,035] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_gcs_dag.local_to_gcs_task scheduled__2019-06-02T00:00:00+00:00 [running]> on host 537c9393f0b3
+[2022-02-23 19:36:23,079] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-23 19:36:23,100] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_gcs_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T00:00:00+00:00
+[2022-02-23 19:36:23,184] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fhv_gcs_dag.py", line 49, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2237, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2112, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 147, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 413, in retriable_request
+    method, url, data=payload, headers=headers, timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/transport/requests.py", line 476, in request
+    self.credentials.before_request(auth_request, method, url, request_headers)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/credentials.py", line 133, in before_request
+    self.refresh(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/service_account.py", line 409, in refresh
+    request, self._token_uri, assertion
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 193, in jwt_grant
+    response_data = _token_endpoint_request(request, token_uri, body)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 165, in _token_endpoint_request
+    _handle_error_response(response_data)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 60, in _handle_error_response
+    raise exceptions.RefreshError(error_details, response_data)
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid grant: account not found', {'error': 'invalid_grant', 'error_description': 'Invalid grant: account not found'})
+[2022-02-23 19:36:23,206] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=fhv_gcs_dag, task_id=local_to_gcs_task, execution_date=20190602T000000, start_date=20220223T193622, end_date=20220223T193623
+[2022-02-23 19:36:23,224] {standard_task_runner.py:92} ERROR - Failed to execute job 655 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fhv_gcs_dag.py", line 49, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2237, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2112, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 147, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 413, in retriable_request
+    method, url, data=payload, headers=headers, timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/transport/requests.py", line 476, in request
+    self.credentials.before_request(auth_request, method, url, request_headers)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/credentials.py", line 133, in before_request
+    self.refresh(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/service_account.py", line 409, in refresh
+    request, self._token_uri, assertion
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 193, in jwt_grant
+    response_data = _token_endpoint_request(request, token_uri, body)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 165, in _token_endpoint_request
+    _handle_error_response(response_data)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/oauth2/_client.py", line 60, in _handle_error_response
+    raise exceptions.RefreshError(error_details, response_data)
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid grant: account not found', {'error': 'invalid_grant', 'error_description': 'Invalid grant: account not found'})
+[2022-02-23 19:36:23,260] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-02-23 19:36:23,327] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

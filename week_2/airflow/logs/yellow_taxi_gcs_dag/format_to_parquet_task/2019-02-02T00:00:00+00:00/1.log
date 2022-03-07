@@ -1,0 +1,386 @@
+[2022-02-03 16:33:48,822] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:33:48,834] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:33:48,834] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:33:48,834] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 16:33:48,834] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:33:48,849] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-02-02 00:00:00+00:00
+[2022-02-03 16:33:48,857] {standard_task_runner.py:52} INFO - Started process 366 to run task
+[2022-02-03 16:33:48,860] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-02-02T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmpvx64wun_', '--error-file', '/tmp/tmpb8i568_s']
+[2022-02-03 16:33:48,861] {standard_task_runner.py:77} INFO - Job 13: Subtask format_to_parquet_task
+[2022-02-03 16:33:48,924] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [running]> on host 7e458922b35d
+[2022-02-03 16:33:48,971] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 16:33:48,993] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T00:00:00+00:00
+[2022-02-03 16:33:56,431] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-03 16:33:56,442] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220203T163348, end_date=20220203T163356
+[2022-02-03 16:33:56,635] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 16:33:56,665] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-03 16:46:17,705] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:46:17,718] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:46:17,718] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:46:17,718] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 16:46:17,718] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:46:17,733] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-02-02 00:00:00+00:00
+[2022-02-03 16:46:17,741] {standard_task_runner.py:52} INFO - Started process 954 to run task
+[2022-02-03 16:46:17,749] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-02-02T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmpg25zs8w4', '--error-file', '/tmp/tmp7ks50d0d']
+[2022-02-03 16:46:17,750] {standard_task_runner.py:77} INFO - Job 21: Subtask format_to_parquet_task
+[2022-02-03 16:46:17,818] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [running]> on host 7e458922b35d
+[2022-02-03 16:46:17,869] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 16:46:17,903] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T00:00:00+00:00
+[2022-02-03 16:46:29,886] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-03 16:46:29,906] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220203T164617, end_date=20220203T164629
+[2022-02-03 16:46:30,154] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 16:46:30,213] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-03 16:56:50,073] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:56:50,117] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 16:56:50,117] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:56:50,117] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 16:56:50,118] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 16:56:50,144] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-02-02 00:00:00+00:00
+[2022-02-03 16:56:50,151] {standard_task_runner.py:52} INFO - Started process 1452 to run task
+[2022-02-03 16:56:50,159] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-02-02T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmpfvdikq4u', '--error-file', '/tmp/tmpi00y0jtj']
+[2022-02-03 16:56:50,161] {standard_task_runner.py:77} INFO - Job 31: Subtask format_to_parquet_task
+[2022-02-03 16:56:50,276] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [running]> on host 7e458922b35d
+[2022-02-03 16:56:50,330] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 16:56:50,360] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T00:00:00+00:00
+[2022-02-03 16:57:04,940] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-03 16:57:04,963] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220203T165650, end_date=20220203T165704
+[2022-02-03 16:57:05,194] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 16:57:05,241] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-03 17:11:18,681] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 17:11:18,694] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-03 17:11:18,694] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 17:11:18,694] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 17:11:18,694] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 17:11:18,708] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-02-02 00:00:00+00:00
+[2022-02-03 17:11:18,713] {standard_task_runner.py:52} INFO - Started process 2138 to run task
+[2022-02-03 17:11:18,717] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-02-02T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmpqlo9rwiy', '--error-file', '/tmp/tmpucwudk3s']
+[2022-02-03 17:11:18,718] {standard_task_runner.py:77} INFO - Job 45: Subtask format_to_parquet_task
+[2022-02-03 17:11:18,776] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [running]> on host 7e458922b35d
+[2022-02-03 17:11:18,812] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 17:11:18,831] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T00:00:00+00:00
+[2022-02-03 17:11:47,083] {base_job.py:230} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 202, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2171, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2244, in _merge
+    merged = self.query(mapper.class_).get(key[1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3557, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3572, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-02-03 17:12:12,467] {base_job.py:230} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 202, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2171, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2244, in _merge
+    merged = self.query(mapper.class_).get(key[1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3557, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3572, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-02-03 17:12:45,651] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-03 17:12:45,765] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220203T171118, end_date=20220203T171245
+[2022-02-03 17:12:46,596] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 17:12:46,730] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-19 23:37:53,576] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-19 23:37:53,735] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [queued]>
+[2022-02-19 23:37:53,736] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 23:37:53,736] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-19 23:37:53,736] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 23:37:53,831] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-02-02 00:00:00+00:00
+[2022-02-19 23:37:53,926] {standard_task_runner.py:52} INFO - Started process 329 to run task
+[2022-02-19 23:37:53,928] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-02-02T00:00:00+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_gcs_dag.py', '--cfg-path', '/tmp/tmp2p5ecezk', '--error-file', '/tmp/tmp5hjcqb0v']
+[2022-02-19 23:37:53,961] {standard_task_runner.py:77} INFO - Job 226: Subtask format_to_parquet_task
+[2022-02-19 23:37:54,319] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_gcs_dag.format_to_parquet_task scheduled__2019-02-02T00:00:00+00:00 [running]> on host 812dd7ecce85
+[2022-02-19 23:37:54,632] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-19 23:37:54,784] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T00:00:00+00:00
+[2022-02-19 23:37:56,318] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/yellow_taxi_gcs_dag.py", line 30, in format_to_parquet
+    table = pv.read_csv(src_file)
+  File "pyarrow/_csv.pyx", line 867, in pyarrow._csv.read_csv
+  File "pyarrow/_csv.pyx", line 876, in pyarrow._csv.read_csv
+  File "pyarrow/error.pxi", line 143, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: CSV parse error: Expected 6 columns, got 3: B00823,2019-02-06 13:30:36,201
+[2022-02-19 23:37:56,384] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190202T000000, start_date=20220219T233753, end_date=20220219T233756
+[2022-02-19 23:37:56,472] {standard_task_runner.py:92} ERROR - Failed to execute job 226 for task format_to_parquet_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/yellow_taxi_gcs_dag.py", line 30, in format_to_parquet
+    table = pv.read_csv(src_file)
+  File "pyarrow/_csv.pyx", line 867, in pyarrow._csv.read_csv
+  File "pyarrow/_csv.pyx", line 876, in pyarrow._csv.read_csv
+  File "pyarrow/error.pxi", line 143, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: CSV parse error: Expected 6 columns, got 3: B00823,2019-02-06 13:30:36,201
+[2022-02-19 23:37:56,557] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-02-19 23:37:56,842] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

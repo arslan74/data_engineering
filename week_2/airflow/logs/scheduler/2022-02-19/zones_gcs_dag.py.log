@@ -1,0 +1,467 @@
+[2022-02-19 23:20:27,594] {processor.py:163} INFO - Started process (PID=49) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:20:27,595] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:20:27,597] {logging_mixin.py:109} INFO - [2022-02-19 23:20:27,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:20:33,417] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:20:34,795] {logging_mixin.py:109} INFO - [2022-02-19 23:20:34,794] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:20:34,829] {logging_mixin.py:109} INFO - [2022-02-19 23:20:34,829] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:20:34,899] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 7.319 seconds
+[2022-02-19 23:21:05,957] {processor.py:163} INFO - Started process (PID=90) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:05,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:21:05,988] {logging_mixin.py:109} INFO - [2022-02-19 23:21:05,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:11,364] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:11,418] {logging_mixin.py:109} INFO - [2022-02-19 23:21:11,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:21:11,463] {logging_mixin.py:109} INFO - [2022-02-19 23:21:11,462] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:21:11,489] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 5.579 seconds
+[2022-02-19 23:21:41,991] {processor.py:163} INFO - Started process (PID=124) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:42,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:21:42,043] {logging_mixin.py:109} INFO - [2022-02-19 23:21:42,043] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:46,519] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:21:46,578] {logging_mixin.py:109} INFO - [2022-02-19 23:21:46,578] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:21:46,683] {logging_mixin.py:109} INFO - [2022-02-19 23:21:46,683] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:21:46,732] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.911 seconds
+[2022-02-19 23:22:17,780] {processor.py:163} INFO - Started process (PID=165) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:17,783] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:22:17,784] {logging_mixin.py:109} INFO - [2022-02-19 23:22:17,784] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:19,687] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:19,704] {logging_mixin.py:109} INFO - [2022-02-19 23:22:19,704] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:22:19,733] {logging_mixin.py:109} INFO - [2022-02-19 23:22:19,733] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:22:19,749] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.983 seconds
+[2022-02-19 23:22:49,965] {processor.py:163} INFO - Started process (PID=201) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:49,991] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:22:49,992] {logging_mixin.py:109} INFO - [2022-02-19 23:22:49,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:52,606] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:22:52,617] {logging_mixin.py:109} INFO - [2022-02-19 23:22:52,616] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:22:52,642] {logging_mixin.py:109} INFO - [2022-02-19 23:22:52,642] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:22:52,658] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.700 seconds
+[2022-02-19 23:23:23,017] {processor.py:163} INFO - Started process (PID=239) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:23:23,030] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:23:23,031] {logging_mixin.py:109} INFO - [2022-02-19 23:23:23,031] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:23:28,899] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:23:28,951] {logging_mixin.py:109} INFO - [2022-02-19 23:23:28,950] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:23:29,015] {logging_mixin.py:109} INFO - [2022-02-19 23:23:29,015] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:23:29,057] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 6.085 seconds
+[2022-02-19 23:23:59,340] {processor.py:163} INFO - Started process (PID=276) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:23:59,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:23:59,346] {logging_mixin.py:109} INFO - [2022-02-19 23:23:59,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:24:01,749] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:24:01,767] {logging_mixin.py:109} INFO - [2022-02-19 23:24:01,766] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:24:01,813] {logging_mixin.py:109} INFO - [2022-02-19 23:24:01,813] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:24:01,834] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.498 seconds
+[2022-02-19 23:24:32,696] {processor.py:163} INFO - Started process (PID=314) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:24:32,697] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:24:32,698] {logging_mixin.py:109} INFO - [2022-02-19 23:24:32,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:24:39,682] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:24:39,730] {logging_mixin.py:109} INFO - [2022-02-19 23:24:39,729] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:24:39,949] {logging_mixin.py:109} INFO - [2022-02-19 23:24:39,949] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:24:40,036] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 7.344 seconds
+[2022-02-19 23:25:10,642] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:10,643] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:25:10,644] {logging_mixin.py:109} INFO - [2022-02-19 23:25:10,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:14,395] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:14,456] {logging_mixin.py:109} INFO - [2022-02-19 23:25:14,456] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:25:14,564] {logging_mixin.py:109} INFO - [2022-02-19 23:25:14,564] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:25:14,660] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.023 seconds
+[2022-02-19 23:25:45,190] {processor.py:163} INFO - Started process (PID=390) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:45,192] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:25:45,194] {logging_mixin.py:109} INFO - [2022-02-19 23:25:45,194] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:49,362] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:25:49,412] {logging_mixin.py:109} INFO - [2022-02-19 23:25:49,412] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:25:49,505] {logging_mixin.py:109} INFO - [2022-02-19 23:25:49,504] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:25:49,570] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.386 seconds
+[2022-02-19 23:26:46,988] {processor.py:163} INFO - Started process (PID=427) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:26:46,993] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:26:46,994] {logging_mixin.py:109} INFO - [2022-02-19 23:26:46,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:26:56,005] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:26:56,114] {logging_mixin.py:109} INFO - [2022-02-19 23:26:56,113] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:26:56,155] {logging_mixin.py:109} INFO - [2022-02-19 23:26:56,155] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:26:56,229] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 9.244 seconds
+[2022-02-19 23:27:27,149] {processor.py:163} INFO - Started process (PID=465) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:27:27,153] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:27:27,154] {logging_mixin.py:109} INFO - [2022-02-19 23:27:27,154] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:27:57,470] {logging_mixin.py:109} INFO - [2022-02-19 23:27:57,334] {timeout.py:36} ERROR - Process timed out, PID: 465
+[2022-02-19 23:27:59,772] {logging_mixin.py:109} INFO - [2022-02-19 23:27:57,659] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/zones_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/zones_gcs_dag.py", line 11, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 143, in <module>
+    from pandas.io.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/api.py", line 8, in <module>
+    from pandas.io.excel import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/__init__.py", line 6, in <module>
+    from pandas.io.excel._odswriter import ODSWriter as _ODSWriter
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_odswriter.py", line 15, in <module>
+    from pandas.io.formats.excel import ExcelCell
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1252, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1364, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_stat
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/zones_gcs_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 465
+[2022-02-19 23:28:11,279] {processor.py:174} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 168, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 651, in process_file
+    self._deactivate_missing_dags(session, dagbag, file_path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 687, in _deactivate_missing_dags
+    .update({DagModel.is_active: False}, synchronize_session="fetch")
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 4063, in update
+    update_op.exec_()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1696, in exec_
+    self._do_pre_synchronize()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1806, in _do_pre_synchronize
+    select_stmt, mapper=self.mapper, params=query._params
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1295, in execute
+    return self._connection_for_bind(bind, close_with_result=True).execute(
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-02-19 23:28:22,794] {processor.py:163} INFO - Started process (PID=485) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:28:22,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:28:22,860] {logging_mixin.py:109} INFO - [2022-02-19 23:28:22,859] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:37:23,492] {processor.py:163} INFO - Started process (PID=493) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:37:23,668] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:37:23,669] {logging_mixin.py:109} INFO - [2022-02-19 23:37:23,668] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:37:40,507] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:37:40,557] {logging_mixin.py:109} INFO - [2022-02-19 23:37:40,553] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:37:40,848] {logging_mixin.py:109} INFO - [2022-02-19 23:37:40,848] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:37:40,918] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 17.430 seconds
+[2022-02-19 23:38:11,306] {processor.py:163} INFO - Started process (PID=539) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:11,308] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:38:11,309] {logging_mixin.py:109} INFO - [2022-02-19 23:38:11,309] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:17,618] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:17,634] {logging_mixin.py:109} INFO - [2022-02-19 23:38:17,634] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:38:17,702] {logging_mixin.py:109} INFO - [2022-02-19 23:38:17,701] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:38:17,749] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 6.466 seconds
+[2022-02-19 23:38:48,527] {processor.py:163} INFO - Started process (PID=578) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:48,533] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:38:48,535] {logging_mixin.py:109} INFO - [2022-02-19 23:38:48,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:53,652] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:38:53,746] {logging_mixin.py:109} INFO - [2022-02-19 23:38:53,746] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:38:53,870] {logging_mixin.py:109} INFO - [2022-02-19 23:38:53,870] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:38:53,950] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 5.440 seconds
+[2022-02-19 23:39:24,303] {processor.py:163} INFO - Started process (PID=607) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:39:24,322] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:39:24,323] {logging_mixin.py:109} INFO - [2022-02-19 23:39:24,323] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:39:28,871] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:39:28,926] {logging_mixin.py:109} INFO - [2022-02-19 23:39:28,926] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:39:29,029] {logging_mixin.py:109} INFO - [2022-02-19 23:39:29,029] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:39:29,083] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.814 seconds
+[2022-02-19 23:39:59,935] {processor.py:163} INFO - Started process (PID=654) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:39:59,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:39:59,961] {logging_mixin.py:109} INFO - [2022-02-19 23:39:59,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:40:03,063] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:40:03,100] {logging_mixin.py:109} INFO - [2022-02-19 23:40:03,099] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:40:03,203] {logging_mixin.py:109} INFO - [2022-02-19 23:40:03,203] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:40:03,229] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 3.329 seconds
+[2022-02-19 23:40:34,314] {processor.py:163} INFO - Started process (PID=696) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:40:34,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:40:34,326] {logging_mixin.py:109} INFO - [2022-02-19 23:40:34,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:40:36,458] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:40:36,482] {logging_mixin.py:109} INFO - [2022-02-19 23:40:36,481] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:40:36,520] {logging_mixin.py:109} INFO - [2022-02-19 23:40:36,520] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:40:36,534] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.235 seconds
+[2022-02-19 23:41:06,734] {processor.py:163} INFO - Started process (PID=733) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:06,738] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:41:06,741] {logging_mixin.py:109} INFO - [2022-02-19 23:41:06,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:09,990] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:10,014] {logging_mixin.py:109} INFO - [2022-02-19 23:41:10,013] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:41:10,195] {logging_mixin.py:109} INFO - [2022-02-19 23:41:10,194] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:41:10,228] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 3.509 seconds
+[2022-02-19 23:41:40,335] {processor.py:163} INFO - Started process (PID=771) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:40,337] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:41:40,338] {logging_mixin.py:109} INFO - [2022-02-19 23:41:40,338] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:41,631] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:41:41,643] {logging_mixin.py:109} INFO - [2022-02-19 23:41:41,643] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:41:41,679] {logging_mixin.py:109} INFO - [2022-02-19 23:41:41,679] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:41:41,698] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.366 seconds
+[2022-02-19 23:42:11,767] {processor.py:163} INFO - Started process (PID=810) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:11,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:42:11,772] {logging_mixin.py:109} INFO - [2022-02-19 23:42:11,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:13,067] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:13,083] {logging_mixin.py:109} INFO - [2022-02-19 23:42:13,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:42:13,120] {logging_mixin.py:109} INFO - [2022-02-19 23:42:13,120] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:42:13,152] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.406 seconds
+[2022-02-19 23:42:43,947] {processor.py:163} INFO - Started process (PID=849) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:43,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:42:43,950] {logging_mixin.py:109} INFO - [2022-02-19 23:42:43,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:45,023] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:42:45,041] {logging_mixin.py:109} INFO - [2022-02-19 23:42:45,040] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:42:45,078] {logging_mixin.py:109} INFO - [2022-02-19 23:42:45,077] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:42:45,101] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.156 seconds
+[2022-02-19 23:43:15,189] {processor.py:163} INFO - Started process (PID=886) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:15,191] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:43:15,192] {logging_mixin.py:109} INFO - [2022-02-19 23:43:15,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:15,939] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:15,949] {logging_mixin.py:109} INFO - [2022-02-19 23:43:15,949] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:43:15,966] {logging_mixin.py:109} INFO - [2022-02-19 23:43:15,966] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:43:15,978] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 0.792 seconds
+[2022-02-19 23:43:46,536] {processor.py:163} INFO - Started process (PID=933) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:46,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:43:46,549] {logging_mixin.py:109} INFO - [2022-02-19 23:43:46,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:49,161] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:43:49,203] {logging_mixin.py:109} INFO - [2022-02-19 23:43:49,203] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:43:49,249] {logging_mixin.py:109} INFO - [2022-02-19 23:43:49,248] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:43:49,296] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.771 seconds
+[2022-02-19 23:44:19,743] {processor.py:163} INFO - Started process (PID=970) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:19,747] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:44:19,748] {logging_mixin.py:109} INFO - [2022-02-19 23:44:19,748] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:21,077] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:21,092] {logging_mixin.py:109} INFO - [2022-02-19 23:44:21,092] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:44:21,123] {logging_mixin.py:109} INFO - [2022-02-19 23:44:21,122] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:44:21,136] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.400 seconds
+[2022-02-19 23:44:51,296] {processor.py:163} INFO - Started process (PID=1008) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:51,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:44:51,299] {logging_mixin.py:109} INFO - [2022-02-19 23:44:51,299] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:52,232] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:44:52,245] {logging_mixin.py:109} INFO - [2022-02-19 23:44:52,244] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:44:52,265] {logging_mixin.py:109} INFO - [2022-02-19 23:44:52,265] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:44:52,277] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 0.989 seconds
+[2022-02-19 23:45:22,434] {processor.py:163} INFO - Started process (PID=1045) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:22,436] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:45:22,437] {logging_mixin.py:109} INFO - [2022-02-19 23:45:22,437] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:23,660] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:23,675] {logging_mixin.py:109} INFO - [2022-02-19 23:45:23,675] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:45:23,705] {logging_mixin.py:109} INFO - [2022-02-19 23:45:23,705] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:45:23,726] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.296 seconds
+[2022-02-19 23:45:54,278] {processor.py:163} INFO - Started process (PID=1083) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:54,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:45:54,284] {logging_mixin.py:109} INFO - [2022-02-19 23:45:54,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:58,478] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:45:58,527] {logging_mixin.py:109} INFO - [2022-02-19 23:45:58,526] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:45:58,606] {logging_mixin.py:109} INFO - [2022-02-19 23:45:58,606] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:45:58,645] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.461 seconds
+[2022-02-19 23:46:29,579] {processor.py:163} INFO - Started process (PID=1117) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:46:29,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:46:29,584] {logging_mixin.py:109} INFO - [2022-02-19 23:46:29,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:46:32,309] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:46:32,331] {logging_mixin.py:109} INFO - [2022-02-19 23:46:32,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:46:32,373] {logging_mixin.py:109} INFO - [2022-02-19 23:46:32,373] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:46:32,397] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.826 seconds
+[2022-02-19 23:47:02,636] {processor.py:163} INFO - Started process (PID=1153) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:02,639] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:47:02,640] {logging_mixin.py:109} INFO - [2022-02-19 23:47:02,640] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:04,749] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:04,771] {logging_mixin.py:109} INFO - [2022-02-19 23:47:04,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:47:04,848] {logging_mixin.py:109} INFO - [2022-02-19 23:47:04,848] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:47:04,885] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.254 seconds
+[2022-02-19 23:47:35,380] {processor.py:163} INFO - Started process (PID=1191) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:35,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:47:35,384] {logging_mixin.py:109} INFO - [2022-02-19 23:47:35,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:37,730] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:47:37,768] {logging_mixin.py:109} INFO - [2022-02-19 23:47:37,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:47:37,834] {logging_mixin.py:109} INFO - [2022-02-19 23:47:37,833] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:47:37,875] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 2.502 seconds
+[2022-02-19 23:48:08,037] {processor.py:163} INFO - Started process (PID=1226) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:48:08,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:48:08,061] {logging_mixin.py:109} INFO - [2022-02-19 23:48:08,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:48:14,814] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:48:14,846] {logging_mixin.py:109} INFO - [2022-02-19 23:48:14,845] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:48:14,917] {logging_mixin.py:109} INFO - [2022-02-19 23:48:14,917] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:48:14,975] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 6.952 seconds
+[2022-02-19 23:48:46,956] {processor.py:163} INFO - Started process (PID=1263) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:48:46,995] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:48:47,032] {logging_mixin.py:109} INFO - [2022-02-19 23:48:47,032] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:50:18,768] {logging_mixin.py:109} INFO - [2022-02-19 23:50:18,768] {timeout.py:36} ERROR - Process timed out, PID: 1263
+[2022-02-19 23:50:21,451] {processor.py:163} INFO - Started process (PID=1268) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:50:21,479] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:50:21,479] {logging_mixin.py:109} INFO - [2022-02-19 23:50:21,479] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:50:52,124] {logging_mixin.py:109} INFO - [2022-02-19 23:50:51,882] {timeout.py:36} ERROR - Process timed out, PID: 1268
+[2022-02-19 23:51:05,542] {logging_mixin.py:109} INFO - [2022-02-19 23:50:52,996] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/zones_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/zones_gcs_dag.py", line 11, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 11, in <module>
+    __import__(dependency)
+  File "/home/airflow/.local/lib/python3.7/site-packages/numpy/__init__.py", line 155, in <module>
+    from . import polynomial
+  File "/home/airflow/.local/lib/python3.7/site-packages/numpy/polynomial/__init__.py", line 122, in <module>
+    from .laguerre import Laguerre
+  File "/home/airflow/.local/lib/python3.7/site-packages/numpy/polynomial/laguerre.py", line 204, in <module>
+    lagzero = np.array([0])
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/zones_gcs_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1268
+[2022-02-19 23:52:31,931] {processor.py:163} INFO - Started process (PID=39) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:52:31,933] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:52:31,934] {logging_mixin.py:109} INFO - [2022-02-19 23:52:31,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:52:36,452] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:52:36,468] {logging_mixin.py:109} INFO - [2022-02-19 23:52:36,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:52:36,495] {logging_mixin.py:109} INFO - [2022-02-19 23:52:36,495] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:52:36,517] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 4.590 seconds
+[2022-02-19 23:53:21,790] {processor.py:163} INFO - Started process (PID=73) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:53:21,822] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:53:21,823] {logging_mixin.py:109} INFO - [2022-02-19 23:53:21,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:53:51,589] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:53:51,619] {logging_mixin.py:109} INFO - [2022-02-19 23:53:51,619] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:53:51,699] {logging_mixin.py:109} INFO - [2022-02-19 23:53:51,699] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:53:51,739] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 29.994 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [2022-02-19 23:57:15,031] {processor.py:163} INFO - Started process (PID=40) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:57:15,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:57:15,034] {logging_mixin.py:109} INFO - [2022-02-19 23:57:15,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:57:27,584] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:57:30,405] {logging_mixin.py:109} INFO - [2022-02-19 23:57:30,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:57:30,506] {logging_mixin.py:109} INFO - [2022-02-19 23:57:30,505] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:57:30,565] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 15.538 seconds
+[2022-02-19 23:58:01,465] {processor.py:163} INFO - Started process (PID=91) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:01,467] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:58:01,467] {logging_mixin.py:109} INFO - [2022-02-19 23:58:01,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:02,217] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:02,226] {logging_mixin.py:109} INFO - [2022-02-19 23:58:02,226] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:58:02,242] {logging_mixin.py:109} INFO - [2022-02-19 23:58:02,242] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:58:02,251] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 0.788 seconds
+[2022-02-19 23:58:32,754] {processor.py:163} INFO - Started process (PID=130) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:32,755] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:58:32,756] {logging_mixin.py:109} INFO - [2022-02-19 23:58:32,756] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:33,586] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:58:33,599] {logging_mixin.py:109} INFO - [2022-02-19 23:58:33,598] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:58:33,622] {logging_mixin.py:109} INFO - [2022-02-19 23:58:33,622] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:58:33,634] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 0.883 seconds
+[2022-02-19 23:59:04,339] {processor.py:163} INFO - Started process (PID=178) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:04,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:59:04,346] {logging_mixin.py:109} INFO - [2022-02-19 23:59:04,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:05,814] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:05,871] {logging_mixin.py:109} INFO - [2022-02-19 23:59:05,870] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:59:05,961] {logging_mixin.py:109} INFO - [2022-02-19 23:59:05,961] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:59:06,000] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 1.670 seconds
+[2022-02-19 23:59:36,188] {processor.py:163} INFO - Started process (PID=220) to work on /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:36,190] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_gcs_dag.py for tasks to queue
+[2022-02-19 23:59:36,191] {logging_mixin.py:109} INFO - [2022-02-19 23:59:36,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:37,101] {processor.py:654} INFO - DAG(s) dict_keys(['zones_gcs_dag']) retrieved from /opt/airflow/dags/zones_gcs_dag.py
+[2022-02-19 23:59:37,112] {logging_mixin.py:109} INFO - [2022-02-19 23:59:37,111] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-19 23:59:37,136] {logging_mixin.py:109} INFO - [2022-02-19 23:59:37,136] {dag.py:2935} INFO - Setting next_dagrun for zones_gcs_dag to 2022-02-18T00:00:00+00:00
+[2022-02-19 23:59:37,149] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_gcs_dag.py took 0.964 seconds

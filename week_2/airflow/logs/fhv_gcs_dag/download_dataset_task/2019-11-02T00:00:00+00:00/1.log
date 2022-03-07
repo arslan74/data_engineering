@@ -1,0 +1,87 @@
+[2022-02-03 18:18:55,971] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-03 18:18:55,989] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-03 18:18:55,989] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 18:18:55,989] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-03 18:18:55,990] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-03 18:18:56,008] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-11-02 00:00:00+00:00
+[2022-02-03 18:18:56,018] {standard_task_runner.py:52} INFO - Started process 1231 to run task
+[2022-02-03 18:18:56,025] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_gcs_dag', 'download_dataset_task', 'scheduled__2019-11-02T00:00:00+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/fhv_gcs_dag.py', '--cfg-path', '/tmp/tmpx7id5nf4', '--error-file', '/tmp/tmp0lif0y7u']
+[2022-02-03 18:18:56,026] {standard_task_runner.py:77} INFO - Job 184: Subtask download_dataset_task
+[2022-02-03 18:18:56,125] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [running]> on host bd2f56b76e32
+[2022-02-03 18:18:56,207] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-03 18:18:56,235] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T00:00:00+00:00
+[2022-02-03 18:18:56,236] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-03 18:18:56,237] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-11.csv > /opt/***/output_2019-11.csv']
+[2022-02-03 18:18:56,252] {subprocess.py:85} INFO - Output:
+[2022-02-03 18:19:15,673] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-03 18:19:15,714] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=download_dataset_task, execution_date=20191102T000000, start_date=20220203T181855, end_date=20220203T181915
+[2022-02-03 18:19:15,760] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-03 18:19:15,817] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-19 23:59:19,648] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-19 23:59:19,695] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-19 23:59:19,707] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 23:59:19,707] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-19 23:59:19,707] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 23:59:19,748] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-11-02 00:00:00+00:00
+[2022-02-19 23:59:19,769] {standard_task_runner.py:52} INFO - Started process 227 to run task
+[2022-02-19 23:59:19,778] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_gcs_dag', 'download_dataset_task', 'scheduled__2019-11-02T00:00:00+00:00', '--job-id', '303', '--raw', '--subdir', 'DAGS_FOLDER/fhv_gcs_dag.py', '--cfg-path', '/tmp/tmp673e2qe_', '--error-file', '/tmp/tmpy6wmnqcj']
+[2022-02-19 23:59:19,780] {standard_task_runner.py:77} INFO - Job 303: Subtask download_dataset_task
+[2022-02-19 23:59:19,925] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [running]> on host da07aa254901
+[2022-02-19 23:59:20,009] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-19 23:59:20,038] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T00:00:00+00:00
+[2022-02-19 23:59:20,039] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-19 23:59:20,040] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-11.csv > /opt/***/output_2019-11.csv']
+[2022-02-19 23:59:20,059] {subprocess.py:85} INFO - Output:
+[2022-02-19 23:59:44,416] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-19 23:59:44,553] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=download_dataset_task, execution_date=20191102T000000, start_date=20220219T235919, end_date=20220219T235944
+[2022-02-19 23:59:44,612] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-19 23:59:44,768] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-23 20:43:38,131] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-23 20:43:38,157] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [queued]>
+[2022-02-23 20:43:38,157] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-23 20:43:38,157] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-23 20:43:38,158] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-23 20:43:38,183] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-11-02 00:00:00+00:00
+[2022-02-23 20:43:38,191] {standard_task_runner.py:52} INFO - Started process 521 to run task
+[2022-02-23 20:43:38,195] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_gcs_dag', 'download_dataset_task', 'scheduled__2019-11-02T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/fhv_gcs_dag.py', '--cfg-path', '/tmp/tmp0m46ny4j', '--error-file', '/tmp/tmp0sq32swc']
+[2022-02-23 20:43:38,196] {standard_task_runner.py:77} INFO - Job 40: Subtask download_dataset_task
+[2022-02-23 20:43:38,344] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_gcs_dag.download_dataset_task scheduled__2019-11-02T00:00:00+00:00 [running]> on host 1c172e0325c8
+[2022-02-23 20:43:38,484] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-23 20:43:38,541] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T00:00:00+00:00
+[2022-02-23 20:43:38,542] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-23 20:43:38,543] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-11.csv > /opt/***/output_2019-11.csv']
+[2022-02-23 20:43:38,585] {subprocess.py:85} INFO - Output:
+[2022-02-23 20:44:02,837] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-23 20:44:02,895] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_dag, task_id=download_dataset_task, execution_date=20191102T000000, start_date=20220223T204338, end_date=20220223T204402
+[2022-02-23 20:44:02,967] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-23 20:44:03,014] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

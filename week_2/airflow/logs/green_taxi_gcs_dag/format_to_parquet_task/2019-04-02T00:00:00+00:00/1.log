@@ -1,0 +1,151 @@
+[2022-02-09 20:32:08,825] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:32:08,885] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:32:08,885] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:32:08,890] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-09 20:32:08,890] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:32:08,941] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-04-02 00:00:00+00:00
+[2022-02-09 20:32:08,956] {standard_task_runner.py:52} INFO - Started process 169 to run task
+[2022-02-09 20:32:08,966] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-04-02T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmpruuvssjk', '--error-file', '/tmp/tmpkmhh5i_v']
+[2022-02-09 20:32:08,968] {standard_task_runner.py:77} INFO - Job 29: Subtask format_to_parquet_task
+[2022-02-09 20:32:09,154] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [running]> on host 4f97b6b16bdb
+[2022-02-09 20:32:09,288] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-09 20:32:09,357] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
+[2022-02-09 20:32:11,288] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-09 20:32:11,309] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220209T203208, end_date=20220209T203211
+[2022-02-09 20:32:11,387] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-09 20:32:11,468] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-09 20:43:08,390] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:43:08,436] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-09 20:43:08,437] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:43:08,437] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-09 20:43:08,437] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 20:43:08,479] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-04-02 00:00:00+00:00
+[2022-02-09 20:43:08,489] {standard_task_runner.py:52} INFO - Started process 619 to run task
+[2022-02-09 20:43:08,507] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-04-02T00:00:00+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmpogk_4qjf', '--error-file', '/tmp/tmpzb575kgp']
+[2022-02-09 20:43:08,508] {standard_task_runner.py:77} INFO - Job 130: Subtask format_to_parquet_task
+[2022-02-09 20:43:08,758] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [running]> on host 4f97b6b16bdb
+[2022-02-09 20:43:08,888] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-09 20:43:09,012] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
+[2022-02-09 20:43:11,664] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-09 20:43:11,700] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220209T204308, end_date=20220209T204311
+[2022-02-09 20:43:11,784] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-09 20:43:11,903] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-20 00:01:32,948] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-20 00:01:32,962] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-20 00:01:32,962] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:01:32,962] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-20 00:01:32,962] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:01:32,977] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-04-02 00:00:00+00:00
+[2022-02-20 00:01:32,982] {standard_task_runner.py:52} INFO - Started process 417 to run task
+[2022-02-20 00:01:32,986] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-04-02T00:00:00+00:00', '--job-id', '322', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmpd6yxe460', '--error-file', '/tmp/tmprvtkxa45']
+[2022-02-20 00:01:32,987] {standard_task_runner.py:77} INFO - Job 322: Subtask format_to_parquet_task
+[2022-02-20 00:01:33,049] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [running]> on host da07aa254901
+[2022-02-20 00:01:33,092] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-20 00:01:33,110] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
+[2022-02-20 00:01:33,330] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/green_gcs_dag.py", line 30, in format_to_parquet
+    table = pv.read_csv(src_file)
+  File "pyarrow/_csv.pyx", line 867, in pyarrow._csv.read_csv
+  File "pyarrow/_csv.pyx", line 876, in pyarrow._csv.read_csv
+  File "pyarrow/error.pxi", line 143, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: straddling object straddles two block boundaries (try to increase block size?)
+[2022-02-20 00:01:33,411] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=green_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220220T000132, end_date=20220220T000133
+[2022-02-20 00:01:33,451] {standard_task_runner.py:92} ERROR - Failed to execute job 322 for task format_to_parquet_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/green_gcs_dag.py", line 30, in format_to_parquet
+    table = pv.read_csv(src_file)
+  File "pyarrow/_csv.pyx", line 867, in pyarrow._csv.read_csv
+  File "pyarrow/_csv.pyx", line 876, in pyarrow._csv.read_csv
+  File "pyarrow/error.pxi", line 143, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: straddling object straddles two block boundaries (try to increase block size?)
+[2022-02-20 00:01:33,491] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-02-20 00:01:33,547] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-20 01:59:31,791] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-20 01:59:31,824] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [queued]>
+[2022-02-20 01:59:31,824] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 01:59:31,824] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-20 01:59:31,824] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 01:59:31,856] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2019-04-02 00:00:00+00:00
+[2022-02-20 01:59:31,866] {standard_task_runner.py:52} INFO - Started process 272 to run task
+[2022-02-20 01:59:31,877] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_gcs_dag', 'format_to_parquet_task', 'scheduled__2019-04-02T00:00:00+00:00', '--job-id', '528', '--raw', '--subdir', 'DAGS_FOLDER/green_gcs_dag.py', '--cfg-path', '/tmp/tmpfqblum2p', '--error-file', '/tmp/tmp96qf9psz']
+[2022-02-20 01:59:31,878] {standard_task_runner.py:77} INFO - Job 528: Subtask format_to_parquet_task
+[2022-02-20 01:59:32,036] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_gcs_dag.format_to_parquet_task scheduled__2019-04-02T00:00:00+00:00 [running]> on host 5484a3a1f7c3
+[2022-02-20 01:59:32,112] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-20 01:59:32,144] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T00:00:00+00:00
+[2022-02-20 01:59:32,922] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-20 01:59:32,944] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_gcs_dag, task_id=format_to_parquet_task, execution_date=20190402T000000, start_date=20220220T015931, end_date=20220220T015932
+[2022-02-20 01:59:33,019] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-20 01:59:33,087] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
